@@ -4,9 +4,9 @@
 class Subwasm < Formula
   desc "CLI utility to get information about Substrate based chains Runtime WASM"
   homepage "https://gitlab.com/chevdor/subwasm"
-  url "https://github.com/chevdor/homebrew-subwasm/releases/download/v0.6.0/subwasm-mac-v0.6.0.tar.gz"
-  sha256 "70d1296d22f226cab91e985d108896ba427f5d6146ff05bcac15bbd5d0a251cd"
-  version "0.6.0"
+  url "https://github.com/chevdor/homebrew-subwasm/releases/download/v0.7.0/subwasm-mac-v0.7.0.tar.gz"
+  sha256 "dd594abae197ea0156b230f94d71cd537295c3ba5a9054fc3b987f7b05f3696d"
+  version "0.7.0"
 
   def install
     bin.install "subwasm"
